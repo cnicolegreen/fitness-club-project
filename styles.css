@@ -11,6 +11,26 @@
   header, nav{
     margin: 10px 0px 10px 0px;
   }
+
+  .contact-header{
+    text-align: center;
+  }
+
+  .contact-styles{
+    background-color: orange;
+    padding: 20px 30px 10px 30px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+
+  }
+
+  .container{
+    margin-bottom: 100px;
+  }
+
+
+
  header{
     padding: 10px 0px;
  }
@@ -21,6 +41,17 @@
     font-size: 1.5em;
 
   }
+
+  /*INFO page - Submit button*/
+  input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1.25;
+    border-radius: 5px;
+    background-color: #0f5091;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 
 
   /* FOOTER styles*/
