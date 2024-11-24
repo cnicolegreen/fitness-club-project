@@ -1,0 +1,38 @@
+.carousel {
+    max-width: 1000px; /* Adjust width to your preference */
+    margin: auto; /* Center carousel on the page */
+  }
+
+  .carousel-inner img {
+    height: 500px; /* Adjust this to the desired height */
+    object-fit: cover; /* Ensures the image isn't stretched but cropped */
+  }
+  
+  header, nav{
+    margin: 10px 0px 10px 0px;
+  }
+ header{
+    padding: 10px 0px;
+ }
+
+  .background-color{
+    background-color: rgb(55, 52, 52);
+    color: azure;
+    font-size: 1.5em;
+
+  }
+
+  table{
+    margin: 10px 10px;
+  }
+
+  footer{
+    background-color: rgb(55, 52, 52);
+    color: azure;
+    padding: 10px;
+    margin: 20px 0px 10px;
+    text-align: center
+  }
+  
+  
+  
