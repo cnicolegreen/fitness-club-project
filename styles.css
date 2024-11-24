@@ -53,6 +53,14 @@
     cursor: pointer;
 }
 
+/*CONTACT page*/
+.map-container {
+  text-align: center; /* Center the map horizontally */
+  margin-top: 20px; /* Add space above the map */
+ 
+  padding: 10px; /* Optional: Add padding inside the map container */
+}
+
 
   /* FOOTER styles*/
 
