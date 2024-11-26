@@ -1,76 +1,122 @@
+/*HOME page styles*/
+
+header,
+nav {
+  margin: 10px 0px 10px 0px;
+}
+
+/* Nav bar styles */
+.nav-link {
+  color: azure !important;
+}
+.nav-link:hover {
+  color: orange !important;
+}
+
+.navbar-brand:hover {
+color: orange
+}
+
+
+
+header {
+  padding: 10px 0px;
+}
+
 .carousel {
-    max-width: 1000px; /* Adjust width to your preference */
-    margin: auto; /* Center carousel on the page */
-  }
+  max-width: 1000px;
+  margin: auto;
+}
 
-  .carousel-inner img {
-    height: 500px; /* Adjust this to the desired height */
-    object-fit: cover; /* Ensures the image isn't stretched but cropped */
-  }
-  
-  header, nav{
-    margin: 10px 0px 10px 0px;
-  }
+.carousel-inner img {
+  height: 500px;
+  object-fit: cover;
+}
 
-  .contact-header{
-    text-align: center;
-  }
+.background-color {
+  background-color: rgb(55, 52, 52);
+  color: azure;
+  font-size: 1.5em;
 
-  .contact-styles{
-    background-color: orange;
-    padding: 20px 30px 10px 30px;
-    max-width: 1000px;
-    margin: auto;
-    margin-top: 50px;
+}
 
-  }
+.orange{
+  color: orange;
+}
 
-  .container{
-    margin-bottom: 100px;
-  }
+/*CONTACT Page styles*/
+.contact-header {
+  text-align: center;
+}
 
+.contact-styles {
+  background-color: orange;
+  padding: 20px 30px 10px 30px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50px;
 
+}
 
- header{
-    padding: 10px 0px;
- }
-
-  .background-color{
-    background-color: rgb(55, 52, 52);
-    color: azure;
-    font-size: 1.5em;
-
-  }
-
-  /*INFO page - Submit button*/
-  input[type="submit"] {
-    padding: 10px 20px;
-    font-size: 1.25;
-    border-radius: 5px;
-    background-color: #0f5091;
-    color: white;
-    border: none;
-    cursor: pointer;
+.container {
+  margin-bottom: 100px;
 }
 
 /*CONTACT page*/
 .map-container {
-  text-align: center; /* Center the map horizontally */
-  margin-top: 20px; /* Add space above the map */
- 
-  padding: 10px; /* Optional: Add padding inside the map container */
+  text-align: center;
+  /* Center the map horizontally */
+  margin-top: 20px;
+  /* Add space above the map */
+
+  padding: 10px;
+  /* Optional: Add padding inside the map container */
 }
 
 
-  /* FOOTER styles*/
+/*INFO page - Submit button*/
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  border-radius: 5px;
+  background-color: #0f5091;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
 
-  footer{
-    background-color: rgb(55, 52, 52);
-    color: azure;
-    padding: 10px;
-    margin: 20px 0px 10px;
-    text-align: center
-  }
+
+/* FOOTER styles*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(55, 52, 52);
+  color: azure;
+  padding: 10px;
+  margin: 20px 0px 10px;
   
-  
-  
+}
+.soc-med-styles {
+  display: flex;
+  gap: 15px;
+}
+
+
+
+.footer-styles {
+  display: flex;
+ margin: auto;
+  align-items: center;
+  gap: 15px;
+}
+
+.hustle-link {
+  color: azure;
+}
+
+.hustle-link:hover {
+  color: orange;
+  text-decoration: underline;
+}
